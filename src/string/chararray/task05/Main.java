@@ -6,7 +6,7 @@ public class Main {
     Крайние пробелы в строке удалить.
     */
     public static void main(String[] args) {
-        String str = "  Удалить в   строке     все         лишние    пробелы    . ";
+        String str = "  Удалить в   строке     все         лишние    пробелы ";
         System.out.println(str);
 
         deleteSpace(str);
