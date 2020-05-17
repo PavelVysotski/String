@@ -7,13 +7,13 @@ public class Main {
     public static void main(String[] args) {
         String str = "Hundred is 100";
         char[] ch = str.toCharArray();
-        int number = 0;
+        int digit = 0;
 
         for ( int i = 0; i < ch.length; i++ ) {
             if (Character.isDigit(ch[i])) {
-                number++;
+                digit++;
             }
         }
-        System.out.println("В строке " + "\"" + str + "\" - " + number + " цифр(ы).");
+        System.out.println("В строке " + "\"" + str + "\" - " + digit + " цифр(ы).");
     }
 }
