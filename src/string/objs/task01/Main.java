@@ -1,4 +1,4 @@
-package string.task06;
+package string.objs.task01;
 
 public class Main {
     /*
@@ -6,6 +6,11 @@ public class Main {
     */
     public static void main(String[] args) {
         String str = "Найдите    максимальное       количество        пробелов подряд    ";
+
+        maxSpace(str);
+    }
+
+    public static int maxSpace (String str){
         char[] ch = str.toCharArray();
         int max = 0;
         int count = 0;
@@ -19,6 +24,7 @@ public class Main {
             }
         }
         System.out.println("Максимальное кол-во пробелов подряд: " + max);
+        return max;
     }
 }
 

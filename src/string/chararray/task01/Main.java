@@ -1,4 +1,4 @@
-package string.task01;
+package string.chararray.task01;
 
 import java.util.Arrays;
 
@@ -8,9 +8,20 @@ public class Main {
     */
     public static void main(String[] args) {
         String title[] = {"сommandName", "epamSystems", "BrunuhVille", "ХочуРаботатьПрограммистом"};
+
+        showString(title);
+        System.out.println();
+        showString(toSnakeCase(title));
+
+    }
+
+    public static void showString(String[] title) {
         for ( String t : title ) {
             System.out.println(t);
         }
+    }
+
+    public static String[] toSnakeCase(String[] title) {
 
         for ( int i = 0; i < title.length; i++ ) {
             String str = title[i];
@@ -26,9 +37,7 @@ public class Main {
                 }
             }
         }
-        for ( String t : title ) {
-            System.out.println(t);
-        }
+        return title;
     }
 }
 

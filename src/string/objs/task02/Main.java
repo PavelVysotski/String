@@ -1,4 +1,4 @@
-package string.task07;
+package string.objs.task02;
 
 public class Main {
     /*

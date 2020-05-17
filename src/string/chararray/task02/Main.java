@@ -1,4 +1,4 @@
-package string.task02;
+package string.chararray.task02;
 
 public class Main {
     /*
