@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static String deleteRepeatAndSpace (String str){ //Метод работает только если надо сделать в алфавитном порядке.
-        StringBuilder sb = new StringBuilder();             
+        StringBuilder sb = new StringBuilder();
         if(!str.isEmpty()) {
             char[] ch = str.toCharArray();
             Arrays.sort(ch);

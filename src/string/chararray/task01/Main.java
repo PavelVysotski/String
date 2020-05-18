@@ -7,7 +7,7 @@ public class Main {
     Дан массив названий переменных в camelCase. Преобразовать названия в snake_case
     */
     public static void main(String[] args) {
-        String title[] = {"сommandName", "epamSystems", "BrunuhVille", "ХочуРаботатьПрограммистом"};
+        String[] title = {"сommandName", "epamSystems", "BrunuhVille", "ХочуРаботатьПрограммистом"};
 
         showString(title);
         System.out.println();
