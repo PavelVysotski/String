@@ -6,18 +6,18 @@ public class Main {
     Крайние пробелы в строке удалить.
     */
     public static void main(String[] args) {
-        String str = "  Удалить в   строке     все         лишние    пробелы ";
+        String str = "  Удалить в   строке     все         лишние    пробелы  ";
         System.out.println(str);
 
         deleteSpace(str);
     }
 
     public static void deleteSpace(String str) {
-        String newStr = str.trim();
-        while (newStr.contains("  ")) {
-            String temp = newStr.replaceAll("  ", " ");
-            newStr = temp;
+        str = str.trim();
+        while (str.contains("  ")) {
+            String temp = str.replaceAll("  ", " ");
+            str = temp;
         }
-        System.out.println(newStr);
+        System.out.println(str);
     }
 }

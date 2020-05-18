@@ -7,8 +7,8 @@ public class Main {
     */
     public static void main(String[] args) {
         String str = "Найти самое длинное слово в предложении и вывести его на экран.";
-        longWord(str);
 
+        longWord(str);
     }
     public static void longWord (String s){
         String[] strings = s.split(" ");
