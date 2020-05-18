@@ -8,7 +8,7 @@ public class Main {
     длинных слов может быть несколько, не обрабатывать.
     */
     public static void main(String[] args) {
-        String str = "AbCdF Gh  IjK ooooOOOO";
+        String str = "АА бб ВВ гг AA bb CC dd АБВГabcd";
         int upper = 0;
         int lower = 0;
         for ( int i = 0; i < str.length(); i++ ) {
@@ -19,6 +19,6 @@ public class Main {
                 lower++;
             }
         }
-        System.out.println(upper + " " + lower);
+        System.out.println("Прописных: "+upper + ", Строчных: " + lower);
     }
 }
