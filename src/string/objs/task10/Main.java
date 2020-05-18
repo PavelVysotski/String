@@ -10,10 +10,10 @@ public class Main {
         countSentense(str);
     }
 
-    public static void countSentense (String s){
+    public static void countSentense (String str){
         int count = 0;
-        for ( int i = 0; i < s.length(); i++ ) {
-            if (s.charAt(i) == '.' || s.charAt(i) == '!' || s.charAt(i) == '?') {
+        for ( int i = 0; i < str.length(); i++ ) {
+            if (str.charAt(i) == '.' || str.charAt(i) == '!' || str.charAt(i) == '?') {
                 count++;
             }
         }

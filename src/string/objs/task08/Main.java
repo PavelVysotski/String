@@ -10,8 +10,8 @@ public class Main {
 
         longWord(str);
     }
-    public static void longWord (String s){
-        String[] strings = s.split(" ");
+    public static void longWord (String str){
+        String[] strings = str.split(" ");
         String max = "";
         for ( String word : strings ) {
             if (word.length() > max.length()) {

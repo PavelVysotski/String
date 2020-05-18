@@ -11,11 +11,11 @@ public class Main {
         String str = "АА бб ВВ гг AA bb CC dd АБВГabcd";
         kindLetter(str);
     }
-    public static void kindLetter (String s) {
+    public static void kindLetter (String str) {
         int upper = 0;
         int lower = 0;
-        for ( int i = 0; i < s.length(); i++ ) {
-            char ch = s.charAt(i);
+        for ( int i = 0; i < str.length(); i++ ) {
+            char ch = str.charAt(i);
             if (Character.isUpperCase(ch)) {
                 upper++;
             } else if (Character.isLowerCase(ch)) {
