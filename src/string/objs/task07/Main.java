@@ -20,7 +20,7 @@ public class Main {
         deleteRepeat(deleteSpace(str2));
     }
 
-    //Данный метод работает только если надо сделать в алфавитном порядке.
+    //Данный метод работает только, если надо сделать в алфавитном порядке.
     public static String deleteRepeatAndSpaceToAlphabet(String str) {
         StringBuilder sb = new StringBuilder();
         if (!str.isEmpty()) {
@@ -39,7 +39,7 @@ public class Main {
         return str;
     }
 
-    //Эти два метода реализовывают если не в алфавитном порядке
+    //Эти два метода реализовывают, если не в алфавитном порядке
     public static String deleteSpace(String str) {
         str = str.trim();
         while (str.contains(" ")) {
